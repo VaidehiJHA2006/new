@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+</head>
+<body>
+    <form>
+        <label for="age">Age:</label>
+        <input type="number" name="Age" id="age" required/><br/><br/>
+        <label for="Gender">Gender:</label><br/><br/>
+        <input type="radio" name="Gender" id="Gender" value="Male"/>Male<br/><br/>
+        <input type="radio" name="Gender" id="Gender" value="Female"/>Female<br/><br/>
+        <input type="radio" name="Gender" id="Gender" value="Other"/>Other<br/><br/>
+        <label for="COLOR">Favorite Color:</label>
+        <select  name="Color" id="COLOR">
+            <option value="Blue">Blue</option>
+            <option value="Green">Green</option>
+            <option value="Red">Red</option>
+            <option value="Pink">Pink</option>
+            <option value="Black">Black</option>
+            <option value="Yellow">Yellow</option>
+            <option value="Purple">Purple</option>
+            <option value="White">White</option>
+            <option value="Orange">Orange</option>
+        </select><br/><br/>
+        <label for="COLOUR">Favorite color:</label>
+        <input type="color" name="colour" id="COLOUR" required><br/><br/>
+        <label for="hobbies">Favorite Hobbies:</label><br/><br/>
+        <input type="checkbox" name="hobbies" id="hobbies" value="Reading"/>Reading<br/><br/>
+        <input type="checkbox" name="hobbies" id="hobbies" value="Journaling"/>Journaling<br/><br/>
+        <input type="checkbox" name="hobbies" id="hobbies" value="Singing"/>Singing<br/><br/>
+        <input type="checkbox" name="hobbies" id="hobbies" value="Dancing"/>Dancing<br/><br/>
+        <label for="opinion">A short opinion:</label>
+        <textarea rows="10" columns="30" id="opinion" required>Write a short opinion on the survey</textarea><br/><br/>
+    <input type="submit"/>
+    </form>
+    
+</body>
+</html>

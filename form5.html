@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order your desired Pizza</title>
+</head>
+<body>
+    <h1>ORDER YOUR PIZZA!!</h1>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" placeholder="Enter your name" required/><br/><br/>
+        <label for="size">Select Size:</label><br/><br/>
+        <input type="radio" name="size" id="size" value="small"/>Small<br/><br/>
+        <input type="radio" name="size" id="size" value="medium"/>Medium<br/><br/>
+        <input type="radio" name="size" id="size" value="large"/>Large<br/><br/>
+        <label for="toppings">Toppings:</label>
+        <input type="checkbox" name="toppings" id="toppings"/><br/><br/>
+        <label for="cheese">Extra cheese:</label>
+        <input type="checkbox" name="cheese" id="cheese"/><br/><br/>
+        <label for="quantity">Quantity:</label>
+        <input type="number" name="quantity" id="quantity"/><br/><br/>
+        <label for="crust">Crust Type:</label>
+    <select name="crust" id="crust">
+      <option value="thin">Thin Crust</option>
+      <option value="thick">Thick Crust</option>
+      <option value="cheese_burst">Cheese Burst</option>
+      <option value="stuffed">Stuffed Crust</option><br/><br/>
+      <label for="address">Delivery Address:</label><br/><br/>
+      <textarea rows="3" columns="10" id="address" name="address" required>Enter you address here</textarea><br/><br/>
+      <input type="submit"/>Confirm order!
+    </select>
+    </form>
+    
+</body>
+</html>
